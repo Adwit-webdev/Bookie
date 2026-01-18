@@ -17,12 +17,12 @@ Bookie is a modern Flutter application designed for students and avid readers. I
 * **State Management:** Native State & SharedPreferences
 * **PDF Core:** Syncfusion Flutter PDFViewer
 
-## 🚀 Installation
+##🤰 Installation
 1.  Clone the repository.
 2.  Add your API Key in `main.dart`.
 3.  Run `flutter pub get`.
 4.  Run `flutter run`.
 
-## ⚠️ Notes
+## ⚠️Notes
 * **Zoom:** The "Ctrl + Scroll" feature is optimized for mouse users.
 * **AI:** This project uses a client-side API key for demonstration purposes.
