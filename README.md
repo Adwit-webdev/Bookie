@@ -16,7 +16,7 @@ My goal is to release this to the world as the go-to reader for students and res
 
 ### 📖 Enhanced Reading Experience
 * **Smart History:** "Bookie" remembers exactly where you left off in every book, so you never lose your place.
-* **True Night Mode:** A custom matrix-based dark mode that protects your eyes during late-night study sessions (not just a simple color inversion).
+* **Eye-Care Modes:** Includes a Matrix-style Dark Mode and **my personal favorite: Sepia Mode**, which adds a warm, paper-like tint perfect for long reading sessions.
 * **Pro Zoom:** Advanced zoom controls, including "Ctrl + Scroll" for desktop users.
 
 ### 🖊️ Core PDF Capabilities
@@ -30,10 +30,32 @@ My goal is to release this to the world as the go-to reader for students and res
 * **Storage:** Local SharedPreferences (No external database = 100% Privacy)
 * **Core Engine:** Syncfusion Flutter PDFViewer
 
-## 🔮 Future Roadmap
-* Cloud Sync (Optional/Encrypted)
-* Full Annotation Toolbar
-* Export Summaries to Notion
+## 🤰 Installation
+If you want to run this project locally:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YourUsername/Bookie.git](https://github.com/YourUsername/Bookie.git)
+    ```
+2.  **Navigate to the project folder:**
+    ```bash
+    cd Bookie
+    ```
+3.  **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
+4.  **Add your API Key:**
+    * Open `lib/main.dart`
+    * Paste your Gemini API Key in the `_apiKey` variable.
+5.  **Run the App:**
+    ```bash
+    flutter run
+    ```
+
+## ⚠️ Notes
+* **Zoom:** The "Ctrl + Scroll" feature is optimized for mouse users.
+* **AI:** This project uses a client-side API key for demonstration purposes.
 
 ---
 *Built with ❤️ for HackSync 2026.*
