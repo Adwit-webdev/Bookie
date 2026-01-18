@@ -8,7 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'dart:io';
 
-const String _apiKey = "AIzaSyAX_nEjfH4_vNeEnuNFEyCMqA0Q2Mkj6Zo"; 
+const String _apiKey = "PASTE_YOUR_API_KEY_HERE"; // INSTRUCTIONS: Get your FREE API Key from aistudio.google.com and paste it here.
 
 void main() {
   runApp(const MyPdfApp());
