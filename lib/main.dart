@@ -273,7 +273,7 @@ class _PdfViewerPageState extends State<PdfViewerPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Smart Reader"),
+        title: const Text("Bookie"),
         actions: [
           if (localPath != null) ...[
             IconButton(
